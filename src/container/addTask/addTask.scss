@@ -1,0 +1,64 @@
+.task-container {
+    width: 100%;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-right: auto;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 32px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    width: 600px;
+
+    form {
+        background-color: #fff8f8bf;
+        color: rgba(0, 0, 0, 0.87);
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+
+        margin-top: 48px;
+        margin-bottom: 48px;
+        padding: 24px;
+
+        .css-1nrlq1o-MuiFormControl-root {
+            width: 90%;
+            margin: 13px 0px;
+        }
+
+        .MuiOutlinedInput-notchedOutline {
+            border: 0px;
+            border-bottom: 1px solid rgb(0 0 0 / 47%);
+        }
+
+        span {
+            color: #d3362f;
+            font-size: smaller;
+            font-weight: 400;
+        }
+
+        .error {
+            .css-cer9gn-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+                color: #d3362f;
+            }
+
+            .css-lz8yz8-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+                color: #d3362f;
+            }
+        }
+
+        .primary {
+            .css-cer9gn-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+                color: #00000099;
+            }
+
+            .css-lz8yz8-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+                border-color: #00000099 !important;
+            }
+        }
+
+
+    }
+}

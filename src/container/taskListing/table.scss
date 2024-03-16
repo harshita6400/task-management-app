@@ -1,0 +1,13 @@
+.table-container {
+    background-color: #16161626;
+
+    .table-container-inner {
+        max-height: 80vh;
+        max-width: 180vh;
+        overflow: scroll;
+    }
+
+    thead {
+        text-transform: capitalize;
+    }
+}
